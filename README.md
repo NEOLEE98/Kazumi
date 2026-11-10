@@ -2,7 +2,8 @@
 > **非官方分支，仅针对 iPhone Duo 提供适配支持。** 本分支并非 [Kazumi](https://github.com/Predidit/Kazumi) 官方版本。
 >
 > 未配置相应 API 凭证时，以下功能可能无法使用：
-> - **弹弹play 弹幕：** 未配置 `DANDANAPI_APPID` 和 `DANDANAPI_KEY` 时，弹幕搜索、匹配、加载及下载可能无法使用。
+>
+> - **弹弹play 弹幕：** ~~未配置 `DANDANAPI_APPID` 和 `DANDANAPI_KEY` 时，弹幕搜索、匹配、加载及下载可能无法使用。~~ 本repo的release已配置
 > - **Bangumi 镜像：** 未配置 `KAZUMI_APPID` 和 `KAZUMI_KEY` 时，镜像模式下的番剧搜索和评论列表可能无法使用。可切换至「直连」或「ECH」模式访问 Bangumi 官方接口，这两种模式不受镜像凭证缺失影响。弹弹play 弹幕仍需单独配置上述弹幕凭证，与 Bangumi 访问模式无关。
 
 <div align=center>
@@ -49,31 +50,31 @@
 
 ## 功能 / 开发计划
 
-- [X]  规则编辑器
-- [X]  番剧目录
-- [X]  番剧搜索
-- [X]  番剧时间表
-- [X]  番剧字幕
-- [X]  分集播放
-- [X]  视频播放器
-- [X]  多视频源支持
-- [X]  规则分享
-- [X]  硬件加速
-- [X]  高刷适配
-- [X]  追番列表
-- [X]  番剧弹幕
-- [X]  在线更新
-- [X]  历史记录
-- [X]  倍速播放
-- [X]  配色方案
-- [X]  跨设备同步
-- [X]  无线投屏 (DLNA)
-- [X]  外部播放器播放
-- [X]  超分辨率
-- [X]  一起看
-- [X]  番剧下载
-- [ ]  番剧更新提醒
-- [ ]  还有更多 (/・ω・＼)
+- [x] 规则编辑器
+- [x] 番剧目录
+- [x] 番剧搜索
+- [x] 番剧时间表
+- [x] 番剧字幕
+- [x] 分集播放
+- [x] 视频播放器
+- [x] 多视频源支持
+- [x] 规则分享
+- [x] 硬件加速
+- [x] 高刷适配
+- [x] 追番列表
+- [x] 番剧弹幕
+- [x] 在线更新
+- [x] 历史记录
+- [x] 倍速播放
+- [x] 配色方案
+- [x] 跨设备同步
+- [x] 无线投屏 (DLNA)
+- [x] 外部播放器播放
+- [x] 超分辨率
+- [x] 一起看
+- [x] 番剧下载
+- [ ] 番剧更新提醒
+- [ ] 还有更多 (/・ω・＼)
 
 ## 下载
 
@@ -189,12 +190,11 @@ A: 本项目编译需要良好的网络环境, 除了由 Google 托管的 Flutte
 
 ## 赞助
 
-
 | ![signpath](https://signpath.org/assets/favicon-50x50.png)                                                                                                                      | Free code signing on Windows provided by[SignPath.io](https://about.signpath.io/), certficate by [SignPath Foundation](https://signpath.org/) |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img src="https://kilo.ai/favicon/favicon.svg" width="50">                                                                                                                      | **Automatic PR review provided by [Kilo Code](https://kilo.ai/), sponsored by the [Kilo OSS Program](https://kilo.ai/oss)**                   |
 | <a href="https://m.do.co/c/0062035db3e4"><img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/SVG/DO_Logo_icon_blue.svg" width="50" height="50"></a> | **Cloud infrastructure is supported by [DigitalOcean](https://m.do.co/c/0062035db3e4)**                                                       |
-| <a href="https://fyrastack.com"><img src="https://fyrastack.com/logo.svg" width="50" height="50"></a>                                                                           | **Virtual machines provided by [Fyra Stack](https://fyrastack.com/)**                        |
+| <a href="https://fyrastack.com"><img src="https://fyrastack.com/logo.svg" width="50" height="50"></a>                                                                           | **Virtual machines provided by [Fyra Stack](https://fyrastack.com/)**                                                                         |
 
 ## 致谢
 
